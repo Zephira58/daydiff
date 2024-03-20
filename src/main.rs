@@ -87,6 +87,5 @@ fn main() {
     let mut year = year;
 
     add_days_to_date(&mut day, &mut month, &mut year, difference);
-
-    println!("The final date is: {}/{}/{}", day, month, year);
+       println!("The final date is: {}/{}/{}", day, month, year);
 }
